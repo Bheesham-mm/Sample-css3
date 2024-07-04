@@ -1,0 +1,54 @@
+/* Font Style */
+@font-face {
+    font-family: "roboto";
+    src: url('../assets/fonts/RobotoCondensed-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: "Style";
+    src: url('../assets/fonts/PlaywriteESDeco-VariableFont_wght.ttf');
+}
+
+
+/* main source */
+html{
+    background-image: linear-gradient(red, yellow, blue);
+}
+body{
+    font-family: "roboto";
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.555);
+}
+.top {
+    /* text-align: center; */
+    background-image: linear-gradient(10, 100, 223);
+}
+/* font size */
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 2em;
+}
+/* text decoration */
+.deco a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+.decoS{
+    text-decoration: underline;
+}
+/* font family */
+.font-style{
+    font-family: "Style";
+}
+/* text transform */
+.tt{
+    text-transform: uppercase;
+}
+/* line height and latter spacing word spacing*/
+p{
+    line-height: 50px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
